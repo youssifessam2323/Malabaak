@@ -1,4 +1,4 @@
-package io.joe.Malaabaak;
+package io.joework.Malabaak;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

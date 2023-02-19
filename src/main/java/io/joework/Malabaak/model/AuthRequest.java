@@ -1,4 +1,4 @@
-package io.joe.Malaabaak.model;
+package io.joework.Malabaak.model;
 
 public class AuthRequest {
 

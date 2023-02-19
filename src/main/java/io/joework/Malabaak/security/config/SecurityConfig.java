@@ -1,6 +1,6 @@
-package io.joe.Malaabaak.security.config;
+package io.joework.Malabaak.security.config;
 
-import io.joe.Malaabaak.security.JwtFilter;
+import io.joework.Malabaak.security.filter.JwtFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -43,7 +43,7 @@ public class SecurityConfig {
         http    .sessionManagement().sessionCreationPolicy(STATELESS)
                 .and()
                 .authorizeHttpRequests()
-                .requestMatchers("v1/auth/*")
+                .antMatchers("v1/auth/*")
                 .permitAll()
                 .anyRequest()
                 .authenticated()

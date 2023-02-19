@@ -1,4 +1,4 @@
-package io.joe.Malaabaak.service;
+package io.joework.Malabaak.service;
 
 
 import org.springframework.security.core.userdetails.UserDetails;
